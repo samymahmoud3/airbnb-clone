@@ -1,4 +1,4 @@
-import { ExploreData } from './../types/app';
+import { ExploreData, LiveData } from './../types/app';
 export const exploreData:ExploreData = [
   {
     id: 1,
@@ -48,4 +48,27 @@ export const exploreData:ExploreData = [
     location: "Hove",
     distance: "2-minute drive"
   }
+]
+
+export const liveData:LiveData = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1519302959554-a75be0afc82a?q=80&w=1484&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Outdoor getaways",
+  },
+  {
+    id: 2,
+    img: "https://plus.unsplash.com/premium_photo-1697729438401-fcb4ff66d9a8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Unique stays",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE91dGRvb3IlMjBnZXRhd2F5cyUyMGhvdXNlfGVufDB8fDB8fHww",
+    title: "Entire homes",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1504968430878-8b4dc34be661?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
+    title: "Pet allowed",
+  },
 ]

@@ -5,3 +5,10 @@ export type ExploreItem = {
   distance: string;
 }
 export type ExploreData = ExploreItem[];
+
+export type LiveItem = {
+  id: number;
+  img: string;
+  title: string;
+}
+export type LiveData = LiveItem[];
