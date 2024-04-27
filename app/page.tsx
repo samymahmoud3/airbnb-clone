@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Explore from "./components/Explore";
+import Footer from "./components/Footer";
 import GreatestOutdoors from "./components/GreatestOutdoors";
 import Live from "./components/Live";
 
@@ -15,6 +16,7 @@ export default function Home() {
         description='Wishlists curated by Airbnb'
         linkText='Get Inspired'
       />
+      <Footer />
     </main>
   );
 }
